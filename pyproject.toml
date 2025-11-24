@@ -15,6 +15,6 @@ requires-python = ">=3.12"
 
 dependencies = ["pandas", "matplotlib"]
 
-# [project.urls]
-# Homepage = "https://github.com/your-username/my-data-project"
-# "Bug Tracker" = "https://github.com/your-username/my-data-project/issues"
+[project.urls]
+Homepage = "https://github.com/BabaykaBo/web_log_analyzer"
+"Bug Tracker" = "https://github.com/BabaykaBo/web_log_analyzer/issues"
