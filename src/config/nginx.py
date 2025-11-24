@@ -11,3 +11,13 @@ LOG_PATTERN = re.compile(
     r'"(?P<referrer>[^"]*)"\s+'
     r'"(?P<user_agent>[^"]*)"'
 )
+
+LOG_FIELDS = (
+    "ip",
+    "time",
+    "request",
+    "status",
+    "size",
+    "referrer",
+    "user_agent",
+)
