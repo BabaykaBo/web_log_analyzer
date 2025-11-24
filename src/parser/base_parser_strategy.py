@@ -4,7 +4,7 @@ from typing import Iterator
 import pandas as pd
 
 
-class BaseParserStrategy(ABC):
+class BaseParser(ABC):
     @abstractmethod
     def parse(self, log_file: Path | str) -> Iterator[pd.DataFrame]:
         """
