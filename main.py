@@ -11,8 +11,8 @@ config = AnalyzerConfig(
     log_pattern=config.log_pattern,
     time_format=config.time_format,
     ignore_patterns=config.ignore_patterns,
+    target_timezone=config.target_timezone,
 )
 
-# Виконання
 analyzer = LogAnalyzer(config)
 analyzer.load().run_all()

@@ -9,3 +9,4 @@ class AnalyzerConfig:
     log_pattern: str
     time_format: str
     ignore_patterns: str
+    target_timezone: str = "UTC"
