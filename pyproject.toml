@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "web_log_analyzer"                                                       # Замініть на фактичну назву вашого проєкту
+version = "0.1.0"
+description = "Project for analysis logs from web servers."
+authors = [{ name = "Oleh", email = "zaaqq135@gmail.com" }]
+license = { text = "MIT" }                                                     # Замініть на вашу ліцензію, наприклад, "Apache-2.0" або "GPL-3.0"
+readme = "README.md"
+keywords = ["data-analysis", "pandas", "matplotlib", "python"]
+
+requires-python = ">=3.12"
+
+dependencies = ["pandas", "matplotlib"]
+
+# [project.urls]
+# Homepage = "https://github.com/your-username/my-data-project"
+# "Bug Tracker" = "https://github.com/your-username/my-data-project/issues"
